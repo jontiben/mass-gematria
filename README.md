@@ -6,7 +6,11 @@ Written by jontiben, 2023
 
 **Examples:**
 
+With `roman_emperors.txt` in the same folder as mass_gematria.py:
+
 `python mass_gematria.py 666 roman_emperors.txt`
+
+Other:
 
 `python mass_gematria.py 47 "C:\Users\jontiben\AppData\Roaming\.minecraft\logs\telemetry\20230204-1.json"`
 
@@ -37,11 +41,17 @@ Files are broken up into segments by spaces and line breaks, and each segment is
 
 Any numbers encountered are considered to have their own value. Punctuation is ignored, even if it appears in the output. There are a number of alternate Latin characters (ø, ð, á, etc.) that are defined in gematria_values.py to be equivalent to one of the 26 standard Latin characters (becoming o, d, a, etc.). This behavior is easily modifiable and extensible by messing with gematria_values.py. Characters that do not appear anywhere in gematria_values.py are ignored. 
 
-Only one instance of a word and the system in which it was matched is shown.
+Only one instance of a word and the system(s) in which it was matched is shown.
 
 ## Supported Gematria Types:
+
+(All Latin script only)
+
 - Ordinal (a=1, b=2, ... z=26)
 - Reduction (a=1, b=2, ... i=9, j=1, k=2, ...)
 - Reverse(-Ordinal) (a=26, b=25, ... z=1)
 - Reverse-Reduction (a=8, b=7, ... h=1, i=9, j=8, ...)
 
+## License:
+
+The project uses the MIT license. It was written entirely in Python.
