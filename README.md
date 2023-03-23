@@ -39,3 +39,9 @@ Any numbers encountered are considered to have their own value. Punctuation is i
 
 Only one instance of a word and the system in which it was matched is shown.
 
+## Supported Gematria Types:
+- Ordinal (a=1, b=2, ... z=26)
+- Reduction (a=1, b=2, ... i=9, j=1, k=2, ...)
+- Reverse(-Ordinal) (a=26, b=25, ... z=1)
+- Reverse-Reduction (a=8, b=7, ... h=1, i=9, j=8, ...)
+
