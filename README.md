@@ -1,5 +1,5 @@
 # Mass Gematria
-Written by jontiben, 2023
+Written by jontiben, 2023, in Python
 
 ## Usage:
 `python mass_gematria.py {target number} {filename}`
@@ -54,4 +54,4 @@ Only one instance of a word and the system(s) in which it was matched is shown.
 
 ## License:
 
-The project uses the MIT license. It was written entirely in Python.
+The project uses the MIT license.
